@@ -1,4 +1,4 @@
-with open("crime.csv",'r') as file:
+with open("Crime.csv",'r') as file:
  mainlist=[]
  list2=[]
  count=[]
@@ -8,8 +8,10 @@ with open("crime.csv",'r') as file:
  countvalue=0
  for line in file:
   line.strip()
-  line.split(,)
-  if line[7] in mainlist:
+  line.split(",")
+  print(line)
+"""
+  if line[2] in mainlist:
    mainlist.index(line[7])
    count[index]+=1
    list2[k]=count[index]
@@ -22,3 +24,4 @@ with open("crime.csv",'r') as file:
    i+=3
    j+=3
    k+=3
+"""
